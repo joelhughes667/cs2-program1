@@ -42,4 +42,5 @@ a+b         | ab+
 (a+b)*(c-d) | ab+cd-*
 A+B*C-D     | ABC*+D-
 ```
-
+Please copy and paste your test result to a "result.txt" file and add the file to your repository.
+ 
