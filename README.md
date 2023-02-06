@@ -1,7 +1,7 @@
 # Program 1
 ## Purpose
 The purpose of this program is to implement the infix to postfix conversion
-algorithm we presented in class:
+algorithm as presented in class:
 * Create an empty stack called **opstack** for keeping operators.
 * Read the infix expression character by character.
 * For each character do the following:
@@ -11,7 +11,7 @@ algorithm we presented in class:
 corresponding left parenthesis is removed.
   * if an operator (`*, /, +, or -`) push it on the **opstack**.
 However, **first** remove any **operators** already on the **opstack** that have
-higher or equal precedence and write them out.
+higher or equal precedence and write them out (you can stop when a left parenthensis is seen).
 * When all characters in the input expression have been read, check the
 **opstack**. Any operators still on the stack can be popped and written out.
 
@@ -43,4 +43,4 @@ a+b         | ab+
 A+B*C-D     | ABC*+D-
 ```
 Please copy and paste your test result to a "result.txt" file and add the file to your repository.
- 
+
